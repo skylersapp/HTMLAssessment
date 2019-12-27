@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+  color: purple;
+}
+.subjectHeader {
+  font-family: sans-serif;
+}
+body blockquote {
+  font-size: 25pt;
+  background-color: black;
+  color: yellow;
+}
+table, caption, th, td {
+  text-align: center;
+  border: 2px dotted purple;
+  border-collapse:separate;
+}
+#scoreBoard caption {
+  font-weight: bold;
+}
+#scoreBoard thead{
+  color: red;
+}
+#scoreBoard tbody td {
+  color: orange;
+}
+#teamRoster li, ul, ol  {
+  list-style: square;
+}
+.hyperLink:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+#checkbox-grid {
+  list-style: none;
+}
