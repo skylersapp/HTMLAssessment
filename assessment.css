@@ -11,7 +11,7 @@ body blockquote {
 }
 table, caption, th, td {
   text-align: center;
-  border: 2px dotted purple;
+  border: 2px groove purple;
   border-collapse:separate;
 }
 #scoreBoard caption {
