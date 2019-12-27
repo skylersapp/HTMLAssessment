@@ -11,17 +11,22 @@ body blockquote {
 }
 table, caption, th, td {
   text-align: center;
-  border: 2px groove purple;
+  border: 2px groove red;
   border-collapse:separate;
 }
 #scoreBoard caption {
+  color: Green;
   font-weight: bold;
 }
-#scoreBoard thead{
-  color: red;
+#scoreBoard thead tr th {
+  color: blue;
+  font-weight: bold;
 }
 #scoreBoard tbody td {
   color: orange;
+}
+#scoreBoard tfoot tr th {
+  font-weight: normal;
 }
 #teamRoster li, ul, ol  {
   list-style: square;
