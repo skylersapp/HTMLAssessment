@@ -38,3 +38,25 @@ table, caption, th, td {
 #checkbox-grid {
   list-style: none;
 }
+#teamRoster > li:first-child, img {
+  font-weight: bolder;
+  list-style-type: none;
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+#teamRoster > li:last-child{
+  font-weight: bolder;
+  list-style-type: none;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+#teamRoster > li:first-child img{
+  display: none;
+}
+#teamRoster > li:last-child img{
+  display: none;
+}
